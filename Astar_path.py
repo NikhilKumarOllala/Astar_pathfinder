@@ -186,7 +186,7 @@ for i in range(len(lines)):
     for j in range(len(l1)):
         long2.append(l1[j])
         lat2.append(l2[j])
-
+        print(long2[j] , lat2[j])
 
 # In[ ]:
 
