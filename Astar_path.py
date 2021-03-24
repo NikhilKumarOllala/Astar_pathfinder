@@ -242,7 +242,7 @@ plot_path(lat2,long2,origin_point,destination_point)
 
 
 sum=0
-for u, v in zip(route1[:-1], route1[1:]):
+for u, v in zip(route[:-1], route[1:]):
     length = round(G.edges[(u, v, 0)]['length'])
     travel_time = round(G.edges[(u, v, 0)]['travel_time'])
     sum=sum+travel_time
